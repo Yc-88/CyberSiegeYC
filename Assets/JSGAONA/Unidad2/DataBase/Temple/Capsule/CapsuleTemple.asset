@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a34d4e1899b96142b0de36a3e772306, type: 3}
+  m_Name: CapsuleTemple
+  m_EditorClassIdentifier: 
+  CheckInterval: 0.71
+  MaxDistanceFromTarget: 3.25
+  MinDistanceFromTarget: 3
+  DefaultState: {fileID: 11400000, guid: 37e83a3e60849c84fbff6928c64a54e7, type: 2}
+  DefaultStateTemplate: {fileID: 11400000, guid: 8f1fc30fa87bc854787035da1f43c0e4,
+    type: 2}
+  ChaseState: {fileID: 11400000, guid: 9dd4ae4018f0ed84d8040a17ff26eb32, type: 2}
+  ChaseTemplate: {fileID: 11400000, guid: deb3dc8101600ec4fbf1de9edb447740, type: 2}
+  BasicAttackState: {fileID: 11400000, guid: 83a969557d5e405449b88b08f75fc511, type: 2}
+  BasicAttackTemplate: {fileID: 11400000, guid: 0027f49d4c4ebe74eae6914d127db13a,
+    type: 2}
+  ResetState: {fileID: 11400000, guid: f65865b94b7bc6347a39cbcf6e9ecb65, type: 2}
+  HackState: {fileID: 11400000, guid: 0c27c0a7fbf9e9445b36db85df7efe23, type: 2}
