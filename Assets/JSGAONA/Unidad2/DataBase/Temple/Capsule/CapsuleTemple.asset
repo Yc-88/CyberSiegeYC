@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a34d4e1899b96142b0de36a3e772306, type: 3}
   m_Name: CapsuleTemple
   m_EditorClassIdentifier: 
-  CheckInterval: 0.71
+  CheckInterval: 0.75
   MaxDistanceFromTarget: 3.25
   MinDistanceFromTarget: 3
   DefaultState: {fileID: 11400000, guid: 37e83a3e60849c84fbff6928c64a54e7, type: 2}

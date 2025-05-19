@@ -20,6 +20,7 @@ namespace Assets.JSGAONA.Unidad2.Scripts.FMS {
         // Cuando el estado Entra
         public override void Enter() {
             EnemyAi.AdjustAgent(2, chaseTemple.MovementSpeedModifier, chaseTemple.Acceleration);
+            EnemyAi.Animator.SetTrigger("Chase");
         }
 
 

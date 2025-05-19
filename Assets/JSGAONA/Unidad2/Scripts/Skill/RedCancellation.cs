@@ -14,6 +14,11 @@ namespace Assets.JSGAONA.Unidad2.Scripts.Skill {
         private Collider[] detectedColliders;
 
         private void Start() {
+            
+        }
+
+        private void Awake()
+        {
             detectedColliders = new Collider[searchSize];
         }
 

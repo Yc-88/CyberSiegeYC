@@ -27,7 +27,7 @@ namespace Assets.JSGAONA.Unidad2.Scripts.FMS {
         [SerializeField] private AIBehaviorTemplate behaviorTemplate;
 
         public Transform player;
-
+        private Animator animator;
         // Variables ocultas desde el inspector de Unity
         private int currentIndex = 0;
         public bool inRange = false;
@@ -41,12 +41,13 @@ namespace Assets.JSGAONA.Unidad2.Scripts.FMS {
         // Propiedades
         public bool ItsHacked { get; set; }
 
-
+        public Animator Animator => animator;
 
         // Metodo de llamada de Unity, se llama una unica vez al iniciar el app, es el primer
         // metodo en ejecutarse, se realiza la asignacion de componentes
         private void Awake(){
             agent = GetComponent<NavMeshAgent>();
+            animator = GetComponent<Animator> ();
         }
 
 
